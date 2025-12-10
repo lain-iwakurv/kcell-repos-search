@@ -1,15 +1,12 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
+
 import './App.css'
-import { Profile } from "./Profile.jsx";
-import {Gallery} from "./Gallery.jsx";
+
+import { ReposPage } from '../src/app/pages/repo.jsx'
 
 function App() {
-
   return (
     <>
-        <Gallery />
+        <ReposPage />
     </>
   )
 }
